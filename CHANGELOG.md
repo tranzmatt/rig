@@ -7,7 +7,30 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Sections are generated on the release PR from the merged pull requests; do not
 edit this file in an ordinary PR (CI fails). Put notes under `## Changelog` in
-your PR description.
+your PR description.## [0.47.1](https://github.com/tranzmatt/rig/compare/v0.47.0...v0.47.1) - 2026-11-23
+
+### Added
+
+- *(rig-bridge)* add live quota probes for Grok, Antigravity, and Copilot in /bridge usage ([#3454](https://github.com/tranzmatt/rig/pull/3454)) (by [gold-silver-copper](https://github.com/gold-silver-copper))
+- *(rig-bridge)* other coding agents' CLIs as model providers ([#3445](https://github.com/tranzmatt/rig/pull/3445)) (by [gold-silver-copper](https://github.com/gold-silver-copper))
+- *(rig-tui)* add StickyPromptPlugin to pin off-screen user messages over top row ([#3451](https://github.com/tranzmatt/rig/pull/3451)) (by [gold-silver-copper](https://github.com/gold-silver-copper))
+- *(rig-tui)* recall waiting inbox message on Up when input is empty ([#3449](https://github.com/tranzmatt/rig/pull/3449)) (by [gold-silver-copper](https://github.com/gold-silver-copper))
+- *(rig-ecs)* skip unstarted tool calls when user steering arrives ([#3448](https://github.com/tranzmatt/rig/pull/3448)) (by [gold-silver-copper](https://github.com/gold-silver-copper))
+- *(rig-tui)* scroll half a page on PageUp and PageDown ([#3446](https://github.com/tranzmatt/rig/pull/3446)) (by [gold-silver-copper](https://github.com/gold-silver-copper))
+
+### Fixed
+
+- *(rig-bridge)* harden handshakes, probe isolation, Codex 0.171 flags, and warm recovery ([#3453](https://github.com/tranzmatt/rig/pull/3453)) (by [gold-silver-copper](https://github.com/gold-silver-copper))
+
+### Other
+
+- remove the rig-claude-cloak plugin ([#3452](https://github.com/tranzmatt/rig/pull/3452)) (by [gold-silver-copper](https://github.com/gold-silver-copper)) - #3452
+- *(rig-basics, rig-tools)* tighten system prompt, framing, and tool descriptions ([#3447](https://github.com/tranzmatt/rig/pull/3447)) (by [gold-silver-copper](https://github.com/gold-silver-copper))
+
+### Contributors
+
+* [gold-silver-copper](https://github.com/gold-silver-copper)
+
 ## [0.47.0](https://github.com/0xPlaygrounds/rig/compare/v0.46.0...v0.47.0) - 2026-11-20
 
 ### Added
